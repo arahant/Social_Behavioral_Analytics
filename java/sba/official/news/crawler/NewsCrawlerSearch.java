@@ -11,7 +11,7 @@ import org.jsoup.Jsoup;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
-public class NewsCrawlerSearch extends NewsCrawlerRss implements Runnable {
+public class NewsCrawlerSearch extends NewsCrawler implements Runnable {
 	
 	public NewsCrawlerSearch(int max, List<Source> feeds) {
 		super(max, feeds);
