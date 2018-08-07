@@ -10,7 +10,7 @@ import org.jsoup.Jsoup;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
-public class NewsCrawlerCategory extends NewsCrawlerRss implements Runnable {
+public class NewsCrawlerCategory extends NewsCrawler implements Runnable {
 	
 	public NewsCrawlerCategory(int max, List<Source> feeds) {
 		super(max, feeds);
